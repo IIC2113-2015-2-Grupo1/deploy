@@ -17,6 +17,9 @@ $ docker-compose up -d
 # Database initial setup
 $ docker-compose run web rake db:setup
 
+# Just migrate
+$ docker-compose run web rake db:migrate
+
 # See logs
 $ docker-compose logs
 
