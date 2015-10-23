@@ -1,13 +1,13 @@
 db:
   image: postgres
-  environment:
-    - POSTGRES_PASSWORD
 
 getter:
   restart: always
   image: iic2113grupo1/news-getter
   ports:
     - '5000:5000'
+  links:
+    - db
 
 web:
   restart: always
