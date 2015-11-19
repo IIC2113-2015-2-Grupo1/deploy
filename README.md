@@ -3,7 +3,6 @@
 ### Environment Variables
 
 ```sh
-$ export POSTGRES_PASSWORD="PASSWORD"
 $ export SECRET_KEY_BASE="LONG_HASH"
 $ export NEW_RELIC_LICENSE_KEY="KEY"
 ```
